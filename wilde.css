@@ -56,3 +56,9 @@ table ,th ,td
             {
                 background-color: #00FFFF;
             }
+
+            .p1:hover
+{
+    color: burlywood;
+    text-shadow: 1px 1px 3px greenyellow;
+}
