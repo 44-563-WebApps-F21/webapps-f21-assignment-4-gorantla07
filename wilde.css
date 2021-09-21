@@ -1,0 +1,47 @@
+.speech
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    color: black;
+}
+
+.stage-direction
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: black;
+}
+
+.name
+{
+    font-family: cursive;
+    font-size: small;
+    color: black;
+}
+
+stage-direction:hover
+{
+    background-color: #00FF7F;
+    color: coral;
+}
+
+.char1
+{
+    color: darkblue;
+}
+
+.char2
+{
+    color: darkorange;
+}
+
+.char3
+{
+    color: deeppink;
+}
+
+table th td 
+{
+    border: 1px solid black;
+    width: 75%;
+}

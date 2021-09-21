@@ -2,6 +2,25 @@
 <html>
     <head>
         <title>Play Page</title>
+        <link rel="Stylesheet" href="wilde.css">
+        <style>
+            table ,th ,td
+            {
+                border: 1px solid black;
+                border-collapse: collapse;
+                width: 100%;
+                margin: .5em;
+                padding: .4em;
+                color: black;
+                text-align: center;
+            }
+
+            tr:nth-child(even)
+            {
+                background-color: #00FFFF;
+            }
+
+        </style>
     </head>
     <body>
         <h2>"Produced By" Gorantla Manoj</h2>
@@ -12,35 +31,58 @@
             [SIR JOHN _and_ LADY CAROLINE PONTEFRACT, MISS WORSLEY, _on chairs under
             large yew tree_.]
 
-            <h5>LADY CAROLINE.</h5>
-            <p>I believe this is the first English country house you
+            <h5 class="name char3">LADY CAROLINE.</h5>
+            <p class="speech">I believe this is the first English country house you
                 have stayed at, Miss Worsley?</p>
 
-            <h5>HESTER.</h5>   
-            <p>Yes, Lady Caroline.</p> 
+            <h5 class="name char1">HESTER.</h5>   
+            <p class="speech"> Yes, Lady Caroline.</p> 
 
-            <h5>LADY CAROLINE.</h5>
-            <p>You have no country houses, I am told, in America?</p>  
+            <h5 class="name char3">LADY CAROLINE.</h5>
+            <p class="speech">You have no country houses, I am told, in America?</p>  
 
-            <h5>HESTER.</h5>
-            <p>We have not many.</p>
+            <h5 class="name char1">HESTER.</h5>
+            <p class="speech">We have not many.</p>
 
-            <h5>LADY CAROLINE.</h5>  
-            <p>Have you any country?  What we should call country?</p>  
+            <h5 class="name char3">LADY CAROLINE.</h5>  
+            <p class="speech">Have you any country?  What we should call country?</p>  
 
-            <h5>HESTER.</h5>
-            <p>[_Smiling_.]  We have the largest country in the world, Lady
+            <h5 class="name char1">HESTER.</h5>
+            <p class="speech">[_Smiling_.]  We have the largest country in the world, Lady
                 Caroline.  They used to tell us at school that some of our states are as
                 big as France and England put together.</p>  
 
-            <h5>LADY CAROLINE.</h5>
-            <p>Ah! you must find it very draughty, I should fancy.
+            <h5 class="name char3">LADY CAROLINE.</h5>
+            <p class="speech">Ah! you must find it very draughty, I should fancy.
                 [_To_ SIR JOHN.]  John, you should have your muffler.  What is the use of
                 my always knitting mufflers for you if you won’t wear them?</p>
                   
-            <h5>SIR JOHN.</h5>
-            <p>I am quite warm, Caroline, I assure you.</p>  
+            <h5 class="name char2">SIR JOHN.</h5>
+            <p class="speech">I am quite warm, Caroline, I assure you.</p>  
 
         </p>
+
+        <table class="table-th-td">
+            <tr>
+                <th>Character</th>
+                <th>Actor</th>
+                <th>Offer</th>
+            </tr>
+            <tr>
+                <td>Vilan</td>
+                <td>Jagapathi Babu</td>
+                <td>$ 1 Million</td>
+            </tr>
+            <tr>
+                <td>Comedian</td>
+                <td>Vennela Kishore</td>
+                <td>$ 5 Million</td>
+            </tr>
+            <tr>
+                <td>Heroine</td>
+                <td>Kajal</td>
+                <td>$ 1 Million</td>
+            </tr>
+        </table>
     </body>
 </html>
